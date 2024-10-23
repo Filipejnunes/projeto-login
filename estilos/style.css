@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+/*
+paletas de cores
+verde: #49a09d
+lilás: #5f2c82
+*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-color: #5f2c82;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+    position: relative;
+
+}
+section#login{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    
+    width: 250px;
+    height: 500px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 15px rgba(255, 255, 255, 0.637));
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
+    transition: width .1s, height .1s;
+    transition-timing-function: ease;
+}
+#img{
+   width: auto;
+   height: 180px;
+   background: white url(img/pexels-tomas-malik-793526-27244381.jpg) no-repeat;
+   background-size: cover;
+   display: block;
+   border-radius: 20px 20px 0px 0px;
+   filter: brightness(70%);
+   
+}
+#formulario{
+    display: block;
+}
+h1{
+    margin: 1px;
+}
+#p{
+    text-align: left;
+    font-size: small;
+    margin: 5px;
+}
+span{
+    color: white;
+    margin: 0px 21px 0px -20px;
+    
+    
+}
+#email1{
+    background-color: #5f2c82;
+    margin: 15px auto 0px auto;
+    display: block;
+    height:40px;
+    width: 95%;
+    padding: 5px;
+    border-radius: 5px;
+}
+#senha1{
+    background-color: #5f2c82;
+    margin: 15px auto 0px auto;
+    display: block;
+    width: 95%;
+    height: 40px;
+    padding: -10px;
+    border-radius: 5px;
+}
+#iemail{
+    display: inline-block;
+    margin: -1px 0px 0px 0px;
+    width: 70%;
+    height: 20px;
+    background-color: #49a09d;
+    border: none;
+    border-radius: 5px;
+    color: rgb(43, 43, 43);
+}
+#isenha::placeholder{
+    color: white;
+    text-align: center;
+}
+#iemail::placeholder{
+    color: white;
+    text-align: center;
+}
+#isenha{
+    display: inline-block;
+    margin: -1px 0px 0px 0px;
+    width: 70%;
+    height: 20px;
+    background-color: #49a09d;
+    border: none;
+    border-radius: 5px;
+    color: rgb(43, 43, 43);
+
+}
+#enviar1{
+    display: block;
+    width: 95%;
+    height: 30px;
+    border: none;
+    background-color: #49a09d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 20px auto 20px auto;
+    
+}
+#enviar1:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+    transition-timing-function: ease;
+    border-radius: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.336);
+}
+#esquecisenha1{
+    width: 95%;
+    height: 30px;
+    margin: 20px auto 0px auto;
+    display: block;
+    border: none;
+    background-color: #49a09d;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+#esquecisenha1:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+    transition-timing-function: ease;
+    border-radius: 20px;
+    border: solid 1px rgba(0, 0, 0, 0.336);
+}
